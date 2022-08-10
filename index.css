@@ -1,0 +1,22 @@
+:root {
+    background-color: antiquewhite;
+    margin: 0px;
+    padding: 0;
+}
+
+header {
+    background-color: lightgrey;
+    margin: 0;
+}
+h1{
+    display: inline;
+    float: left;
+}
+.links {
+    float: right;
+}
+.links > a {
+    display: inline;
+    padding: 1em;
+    margin: 1em;
+}
