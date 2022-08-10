@@ -1,22 +1,63 @@
+
+
+
 :root {
-    background-color: antiquewhite;
-    margin: 0px;
-    padding: 0;
+    --background: #ECE9E9;
+    --text: #141414;
+
+    background-color: var(--background);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 300;
+}
+* {
+    margin: 0;
+    color: var(--text);
+}
+.header {
+background-color: #AA9D9D;
+position: fixed;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+opacity: 80%;
+transition: ease-in-out 3s;
 }
 
-header {
-    background-color: lightgrey;
-    margin: 0;
-}
-h1{
-    display: inline;
-    float: left;
+
+
+h1 {
+float: left;
 }
 .links {
-    float: right;
+    display:flex;
+    justify-content: space-around;
+
 }
 .links > a {
-    display: inline;
-    padding: 1em;
+padding: 1rem;
+text-decoration: none;
+transition: ease-in-out 1s;
+border: none;
+}
+
+.links > a:hover {
+    text-decoration: underline;
+    opacity: 40%;
+}
+
+
+h2{
     margin: 1em;
+    margin-top: 5em;
+}
+
+h3 {
+margin: 1em;
+margin-top: 5em;
+}
+
+p {
+    margin: 1em;
+
 }
